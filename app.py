@@ -78,7 +78,7 @@ def handle_user_question(prompt):
 
 # Main function that runs everything 
 def main():
-    load_dotenv('.gitignore/.env')
+    load_dotenv()
     openai_api_key = os.getenv("OPENAI_API_KEY")
     st.set_page_config(page_title='LuluChat', page_icon=':cyclone:')
     
